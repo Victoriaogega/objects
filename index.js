@@ -101,7 +101,7 @@ let employees = [
 
  return employees.forEach (employee => {
     if (employee.position === 'developer'){
-        employee.salary * 1.1 
+        employee.salary *= 1.1 
     }
     console.log(employees)
-})git add
+})
